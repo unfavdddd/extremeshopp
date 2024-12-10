@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXTREME/shop</title>
+    <link rel="stylesheet" href="/assets/style/product.css" />
+    <link rel="icon" type="image/png" href="/assets/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <a href="/index.html" class="header-nav-logo"
+          ><img src="/assets/images/logo.png" alt="extreme logo"
+        /></a>
+        <div class="dropdown">
+          <button onclick="dropdown()" class="dropdown-btn">МАГАЗИН</button>
+          <div id="dropdown-menu" class="dropdown-content">
+            <a href="/product cards/moto/moto.html">МОТОКРОСС</a>
+            <a href="#">ВЕЛОСПОРТ</a>
+            <a href="#">ЛЫЖИ</a>
+            <a href="#">АЛЬПИНИЗМ</a>
+            <a href="#">АКСЕССУАРЫ</a>
+          </div>
+        </div>
+        <div class="mobile_dropdown">
+          <button onclick="mobile_dropdown()" class="mobile_dropdown-btn">МЕНЮ</button>
+          <div id="mobile_dropdown-menu" class="mobile_dropdown-content">
+            <a href="/product cards/moto/moto.html">МОТОКРОСС</a>
+            <a href="#">ВЕЛОСПОРТ</a>
+            <a href="#">ЛЫЖИ</a>
+            <a href="#">АЛЬПИНИЗМ</a>
+            <a href="#">АКСЕССУАРЫ</a>
+            <br />
+            <a href="#">ИНФОРМАЦИЯ</a>
+            <a href="#">КОРЗИНА</a>
+            <a href="#">ВХОД</a>
+          </div>
+        </div>
+        <a href="#" class="header-nav-btn">ИНФОРМАЦИЯ</a>
+        <a href="#" class="header-nav-btn" id="registration">ВХОД/РЕГИСТРАЦИЯ</a>
+        <a href="#" class="header-nav-btn" id="cart">КОРЗИНА [0]</a>
+      </div>
+    </header>
+    <main>
+      <div class="product-img"><img src="/assets/images/product/product_1.jpg" alt="helmet" /></div>
+      <div class="product-info">
+        <div class="product-headline"><h1>Шлем такой то такой то</h1></div>
+        <div class="product-about">
+          <p>
+            Текст ТЕКСТ Т Е К С Т 123456789 1 2 3 Текст ТЕКСТ Т Е К С Т 123456789 1 2 3 Текст ТЕКСТ Т Е К С Т
+            123456789 1 2 3 Текст ТЕКСТ Т Е К С Т 123456789 1 2 3 Текст ТЕКСТ Т Е К С Т 123456789 1 2 3 Текст
+            ТЕКСТ Т Е К С Т 123456789 1 2 3 Текст ТЕКСТ Т Е К С Т 123456789 1 2 3 Текст ТЕКСТ Т Е К С Т
+            123456789 1 2 3
+          </p>
+        </div>
+        <div class="product-price"></div>
+      </div>
+    </main>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-logo">
+          <a href="/index.html"><img src="/assets/images/logo.png" alt="extreme_logo" /></a>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-list_nav">
+            <h1>НАВИГАЦИЯ</h1>
+            <li><a href="#">МОТОКРОСС</a></li>
+            <li><a href="#">ВЕЛОСПОРТ</a></li>
+            <li><a href="#">ЛЫЖИ</a></li>
+            <li><a href="#">АЛЬПИНИЗМ</a></li>
+            <li><a href="#">АКСЕССУАРЫ</a></li>
+          </ul>
+        </div>
+        <div class="footer-list">
+          <ul class="footer-list_contact">
+            <h1>КОНТАКТЫ</h1>
+            <li><a href="#">ТЕЛЕФОН</a></li>
+            <li><a href="#">АДРЕС</a></li>
+            <li><a href="#">EMAIL</a></li>
+            <li><a href="#">САЙТ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/assets/script/mobile_dropdown.js"></script>
+  <script src="/assets/script/dropdown.js"></script>
+</html>
